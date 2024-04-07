@@ -55,6 +55,7 @@ header ul li {
 header ul li a {
     display: block;
     width: 100%;
+    height: 100%;
 }
 
 /* content */
@@ -125,12 +126,98 @@ header ul li a {
     background-color: #666;
 }
 
+.AboutMe_L button {
+    width: 30%;
+    margin: 5px 35%;
+    height: 40px;
+    background-color: #323232;
+    border: 3px solid #323232;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.AboutMe_L button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+}
+
+.AboutMe_L button:hover {
+    background: #fff;
+    color: #323232;
+    font-weight: bold;
+}
+
 
 /* Portfolio */
 .Portfolio {
     width: 100%;
     height: 200vh;
     padding: 30px;
+}
+
+.Port_subtitle {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.Port_list {
+    width: 95%;
+    margin: 0 2.5%;
+    height: 300px;
+}
+
+.Port_list > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Port_list > ul > li {
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.Port_list_01{
+    width: 200px;
+    height: 200px;
+}
+
+.Port_list_title {
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 17px;
+    text-align: center;
+}
+.Port_list button {
+    width: 70%;
+    margin: 5px 15%;
+    height: 40px;
+    background-color: #323232;
+    border: 3px solid #323232;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.Port_list button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+}
+
+.Port_list button:hover {
+    background: #fff;
+    color: #323232;
+    font-weight: bold;
 }
 
 /* footer */
